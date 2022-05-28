@@ -10,10 +10,10 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 export default function Footer() {
   return (
     <footer>
-      <FontAwesomeIcon icon={faLinkedin} />
-      <FontAwesomeIcon icon={faFacebook} />
-      <FontAwesomeIcon icon={faInstagram} />
-      <FontAwesomeIcon icon={faGithub} />
+      <li><FontAwesomeIcon icon={faLinkedin} size="lg"/></li>
+      <li><FontAwesomeIcon icon={faFacebook} size="lg"/></li>
+      <li><FontAwesomeIcon icon={faInstagram} size="lg"/></li>
+      <li><FontAwesomeIcon icon={faGithub} size="lg"/></li>
     </footer>
   )
 }
