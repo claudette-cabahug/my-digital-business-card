@@ -5,12 +5,15 @@ import {
   faFacebook,
   faInstagram,
   faGithub
+  
  } from '@fortawesome/free-brands-svg-icons';
+import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
 
 library.add(
   faLinkedin,
   faFacebook,
   faInstagram,
-  faGithub
+  faGithub,
+  faEnvelope
   // more icons go here
 );
