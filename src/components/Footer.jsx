@@ -8,12 +8,33 @@ import {
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export default function Footer() {
+  let urlLinkedIn = "https://www.linkedin.com/in/claudettecabahug/"
+  let urlFacebook = "https://www.facebook.com/cmontescabahug"
+  let urlInstagram = "https://www.instagram.com/onclaude9/?hl=en"
+  let urlGithub = "https://github.com/claudette-cabahug"
+
   return (
     <footer>
-      <li><FontAwesomeIcon icon={faLinkedin} size="lg"/></li>
-      <li><FontAwesomeIcon icon={faFacebook} size="lg"/></li>
-      <li><FontAwesomeIcon icon={faInstagram} size="lg"/></li>
-      <li><FontAwesomeIcon icon={faGithub} size="lg"/></li>
+      <li>
+        <a href={urlLinkedIn}>
+          <FontAwesomeIcon icon={faLinkedin} size="lg"/>
+        </a>
+      </li>
+      <li>
+        <a href={urlFacebook}>
+          <FontAwesomeIcon icon={faFacebook} size="lg"/>
+        </a>
+      </li>
+      <li>
+        <a href={urlInstagram}>
+          <FontAwesomeIcon icon={faInstagram} size="lg"/>
+        </a>
+      </li>
+      <li>
+        <a href={urlGithub}>
+          <FontAwesomeIcon icon={faGithub} size="lg"/>
+        </a>
+      </li>
     </footer>
   )
 }

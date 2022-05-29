@@ -14,7 +14,7 @@ export default function Info() {
       <div className="details--outer_container">
         <h1 className="details--name">Claudette Cabahug</h1>
         <h3 className="details--job_title">Fullstack Web Developer</h3>
-        <a href={url}>beforeforty.hashnode.dev</a>
+        <a className="url--blogsite" href={url}>beforeforty.hashnode.dev</a>
         <button className="email--text">
           <FontAwesomeIcon icon={faEnvelope} size="lg"/>
           Email

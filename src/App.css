@@ -60,7 +60,7 @@ button {
   margin-bottom: -10px;
 }
 
-a {
+.url--blogsite {
   width: 100%;
   /* width: 228px;
   height: 16px; */
@@ -177,4 +177,8 @@ li {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+li > a:visited {
+  color: inherit;
 }
