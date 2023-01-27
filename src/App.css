@@ -20,15 +20,21 @@ button {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 9px 13px 9px 11px;
-  gap: 8px;
-  width: 247px;
+  padding: 9px;
+  width: 100px;
   height: 34px;
   background: #FFFFFF;
   border: 1px solid #D1D5DB;
   box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
   border-radius: 6px;
-  margin: auto;
+  margin: 6px;
+}
+
+.button-div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 
 .details--outer_container {
@@ -45,7 +51,7 @@ button {
   height: 201px;
   margin-left: 35px;
   margin-right: 35px;
-  margin-top: 24px;
+  margin-top: 20px;
   margin-bottom: 24px;
 }
 
