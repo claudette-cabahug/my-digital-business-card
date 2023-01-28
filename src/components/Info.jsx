@@ -18,7 +18,7 @@ export default function Info() {
         <a className="url--blogsite" href={url}>beforeforty.hashnode.dev</a>
         <div className="button-div">
           <button className="email--text">
-              <a href="mailto:claudette.cabahug@outlook.com?subject=Hello">
+              <a href="mailto:claudette.cabahug@outlook.com?subject=Hello Claudette">
                 <FontAwesomeIcon icon={faEnvelope} size="lg"/>
               </a>
           </button>
